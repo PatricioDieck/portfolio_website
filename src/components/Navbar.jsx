@@ -19,7 +19,7 @@ const Navbar = () => {
           onClick = {() => {
             setActive('');
           }}/>
-
+        <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
       </div>
 
     </nav>
