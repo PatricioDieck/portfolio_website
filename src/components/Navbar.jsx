@@ -2,8 +2,8 @@ import React, {useEffect, useState} from 'react'
 import { Link } from 'react-router-dom'
 
 import {styles} from '../styles'
-import { NavLinks } from '../constants'
-import {logo, menu, close} from '../assets'
+import { NavLinks } from '../constants/index'
+import {logo, menu, close, headshot} from '../assets'
 
 const Navbar = () => {
   useState[active, setActive] = useState('')
@@ -19,7 +19,8 @@ const Navbar = () => {
           onClick = {() => {
             setActive('');
           }}/>
-        <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
+        <img src={headshot} alt='headshot' className='w-9 h-9 object-contain' />
+        <p className='text-white text-[18px] font-bold cursor-pointer'>Patricio Dieck</p>
       </div>
 
     </nav>
