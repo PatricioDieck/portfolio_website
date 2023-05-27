@@ -11,7 +11,7 @@ const ServiceCard = ({index, title, icon}) => {
   return( 
     <Tilt className="xs:w-[250px] w-full" >
       <motion.div
-        variants={fadeIn('right','spring',0.5*index,0.75)}
+        variants={fadeIn('right','spring',index,0.75)}
         className='w-full green-pink-gradient p-[1.5px] rounded-[20px] shadow-card'>
           <div
             options={{ 
@@ -37,7 +37,7 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.div>
       <motion.p
-        variants={fadeIn('','',0.1,1)}
+        variants={fadeIn('','',0.1,2.5)}
         className={'mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'}>
         I am a software developer, financial analyst and entrepeneur with experience in financial software and real estate private equity. I studied Economics and Finance from UT Austin and am proficient in JS, React, React Native, ChatGPT, Node.js, Machine Learning, Python, and quick to learn anything needed for a project. I recently published my own mobile financial analyst, PocketAnalyst, that uses AI to automate financial analysis. I have worked as an acquisitions and development analyst for $100M+ real estate development deals with Castle Hill Partners and for the Red McCombs School of Business, where I conducted large-scale data processing experiments and helped produce peer-reviewed financial research. I am fluent in Spanish and have a strong background in leadership, negotiation, and sales. 
       </motion.p>
