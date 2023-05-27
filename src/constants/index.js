@@ -122,8 +122,8 @@ const experiences = [
     iconBg: "white",
     date: "Summer 2020 – Fall 2021",
     points: [
-      "Implemented 8 large-scale data processing experiments using STATA to construct financial databases from project-specific data collection",
-      "Processed and interpreted 3 economic/financial papers per day to generate new datasets. Resulted in the production of peer-reviewed financial research",
+      "Implemented and coded 8 large-scale data processing experiments using STATA to analyze, merge, and produce an econometric database of 1.3M+ observations and 100 variables.",
+      "Processed and interpreted 3 economic/financial papers per day to generate new datasets. Resulted in the production of peer-reviewed financial research with Aaron Pancost Ph.D",
       "Led peer meetings with the aim of enhancing the abilities of 5 fellow analysts through instructing on research methodologies and providing quality feedback on data work",
     ],
   },
