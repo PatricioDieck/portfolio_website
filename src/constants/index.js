@@ -226,6 +226,48 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
+    name: "hello",
+    description:
+      "pepbois",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: shopify,
+    source_code_link: "https://github.com/",
+  },  
+  {
+    name: "hello",
+    description:
+      "pepbois",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: starbucks,
+    source_code_link: "https://github.com/",
+  },
+  {
     name: "Trip Guide",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
