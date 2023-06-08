@@ -2,16 +2,17 @@ import {Tilt} from 'react-tilt'
 import { motion } from 'framer-motion'
 
 import { styles } from '../styles'
-import { github } from '../assets'
+
 import { SectionWrapper } from '../hoc'
 import { projects } from '../constants'
 import {fadeIn, textVariant} from '../utils/motion'
-import { headshot } from '../assets'
 
 
-const ProjectCard = ({index, name, description, tags, image, source_code_link, tag}) => {
+
+const ProjectCard = ({index, name, description, tags, image, source_code_link, check}) => {
   return(
-    <motion.div variants={fadeIn("up", "spring", index*0.5, 0.75)}>
+    <div>
+    {/* // <motion.div variants={fadeIn("up", "spring", index*0.5, 0.75)}> */}
       <Tilt
         options= {{
           max:45,
@@ -30,11 +31,11 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link, t
           <div
             className='absolute inset-0 flex justify-end m-3 card-img_hover'>
             <div
-              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'>
+              className='bg-black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'>
               <img
-                src={tag}
+                src={check}
                 alt='github'
-                className='object-contain w-6 h-6 '
+                className='object-contain w-1/2 h-1/2 '
                 />
             </div>
           </div>
@@ -52,7 +53,8 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link, t
             ))}
         </div>
       </Tilt>
-    </motion.div>
+    {/* </motion.div> */}
+    </div>
   )
 }
 

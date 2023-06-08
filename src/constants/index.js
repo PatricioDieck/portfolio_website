@@ -243,7 +243,7 @@ const projects = [
     image: pastore,
     source_code_link:
       "https://apps.apple.com/us/app/pocketanalyst/id6447647744",
-    tag: reactjs,
+    check: reactjs,
   },
   {
     name: "PocketAnalyst Website",
@@ -262,7 +262,7 @@ const projects = [
     image: pawebsite,
     source_code_link:
       "https://apps.apple.com/us/app/pocketanalyst/id6447647744",
-    tag: reactjs,
+    check: reactjs,
   },
   {
     name: "Private Equity Excel Model",
@@ -277,7 +277,7 @@ const projects = [
     image: excelmodel,
     source_code_link:
       "https://docs.google.com/spreadsheets/d/1cXS--6TAGUi8J43Du2dlvBn65MliGKqF/edit?usp=sharing&ouid=112954166408836832152&rtpof=true&sd=true",
-    tag: excel,
+    check: excel,
   },
   {
     name: "Economic Research",
@@ -296,7 +296,7 @@ const projects = [
     image: video,
     source_code_link:
       "https://www.youtube.com/watch?v=czviZdB6Bnc&t=77s&ab_channel=PatricioDieck",
-    tag: stata,
+    check: stata,
   },
   {
     name: "Job Losses From Covid-19",
@@ -311,7 +311,7 @@ const projects = [
     image: pptpresentation,
     source_code_link:
       "https://docs.google.com/presentation/d/1LD9u_4pKcwnMI3QqyVq8pw8s854dLi9J/edit?usp=sharing&ouid=112954166408836832152&rtpof=true&sd=true",
-    tag: pptx,
+    check: pptx,
   },
   {
     name: "Musical Life",
@@ -334,7 +334,7 @@ const projects = [
     image: misty,
     source_code_link:
       "https://docs.google.com/presentation/d/1LD9u_4pKcwnMI3QqyVq8pw8s854dLi9J/edit?usp=sharing&ouid=112954166408836832152&rtpof=true&sd=true",
-    tag: headshot,
+    check: headshot,
   },
 ];
 
