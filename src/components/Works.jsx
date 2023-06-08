@@ -12,7 +12,7 @@ import {fadeIn, textVariant} from '../utils/motion'
 const ProjectCard = ({index, name, description, tags, image, source_code_link, check}) => {
   return(
     <div>
-    {/* // <motion.div variants={fadeIn("up", "spring", index*0.5, 0.75)}> */}
+
       <Tilt
         options= {{
           max:45,
@@ -31,7 +31,7 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link, c
           <div
             className='absolute inset-0 flex justify-end m-3 card-img_hover'>
             <div
-              className='bg-black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'>
+              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'>
               <img
                 src={check}
                 alt='github'
@@ -53,7 +53,7 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link, c
             ))}
         </div>
       </Tilt>
-    {/* </motion.div> */}
+
     </div>
   )
 }
