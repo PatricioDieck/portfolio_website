@@ -7,9 +7,10 @@ import { services } from '../constants'
 import {fadeIn, textVariant} from '../utils/motion'
 import { SectionWrapper } from '../hoc'
 
-const ServiceCard = ({index, title, icon}) => {
+const ServiceCard = ({index, title, icon, link}) => {
   return( 
     <Tilt className="xs:w-[250px] w-full" >
+      <a href={link} target="_blank" rel="noopener noreferrer">
       <motion.div
         variants={fadeIn('right','spring',index,0.75)}
         className='w-full green-pink-gradient p-[1.5px] rounded-[20px] shadow-card'>
@@ -23,6 +24,7 @@ const ServiceCard = ({index, title, icon}) => {
               <h3 className={`text-white text-[20px] font-bold text-center`}>{title}</h3>
           </div>
       </motion.div>
+      </a>
     </Tilt>
     )
 }
@@ -39,7 +41,11 @@ const About = () => {
       <motion.p
         variants={fadeIn('','',0.1,1.5)}
         className={'mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'}>
-        I am a software developer, financial analyst and entrepeneur with experience in financial software and real estate private equity. I studied Economics and Finance from UT Austin and am proficient in JS, React, React Native, ChatGPT, Node.js, Machine Learning, Python, and quick to learn anything needed for a project. I recently published my own mobile financial analyst, PocketAnalyst, that uses AI to automate financial analysis. I have worked as an acquisitions and development analyst for $100M+ real estate development deals with Castle Hill Partners and for the Red McCombs School of Business, where I conducted large-scale data processing experiments and helped produce peer-reviewed financial research. I am fluent in Spanish and have a strong background in leadership, negotiation, and sales. 
+        As a technical entrepreneur with a background in financial analysis, I offer a unique blend of expertise in software development and private equity. Notably, I developed and published <a href="http://pocketanalyst.app" className='text-blue-200 underline'>PocketAnalyst</a>, a tool that harnesses AI to transform financial analysis. My professional journey includes impactful roles at Castle Hill Partners and the Red McCombs School of Business, where I helped manage $100M+ real estate deals and contributed to financial research respectively.<br/><br/>
+
+        My academic grounding from the University of Texas, Austin, in Economics and Finance, compliments my proficiency in diverse programming languages, including JS, React, React Native, ChatGPT, Node.js, Python, and Machine Learning. <br/><br/>
+        
+        I'm a fluent Spanish speaker with leadership, negotiation, and sales skills under my belt. But more than anything, I'm an enterprising developer who sees the big picture.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

@@ -23,6 +23,19 @@ import {
   jobit,
   tripguide,
   threejs,
+  excel,
+  openai,
+  pptx,
+  python,
+  stata,
+  aaron,
+  board,
+  excelmodel,
+  misty,
+  pastore,
+  pawebsite,
+  pptpresentation,
+  video,
 } from "../assets";
 
 export const navLinks = [
@@ -42,24 +55,60 @@ export const navLinks = [
 
 const services = [
   {
+    title: "Speaker and Researcher",
+    icon: creator,
+    link: "https://youtu.be/czviZdB6Bnc"
+  },
+  {
+    title: "Mobile App Developer",
+    icon: mobile,
+    link:"https://apps.apple.com/us/app/pocketanalyst/id6447647744"
+  },
+  {
     title: "Web Developer",
     icon: web,
+    link: "https://www.pocketanalyst.app/"
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
+    title: "Financial Analyst",
     icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
+    link: "https://drive.google.com/drive/folders/1fn-i2bpGxO2rBHTv8W8eWZd-KsCYMGnL?usp=sharing"
   },
 ];
 
 const technologies = [
+  {
+    name: "JavaScript",
+    icon: javascript,
+  },
+  {
+    name: "python",
+    icon: python,
+  },
+  {
+    name: "openai",
+    icon: openai,
+  },
+  {
+    name: "excel",
+    icon: excel,
+  },
+  {
+    name: "pptx",
+    icon: pptx,
+  },
+  {
+    name: "stata",
+    icon: stata,
+  },
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+  // {
+  //   name: "TypeScript",
+  //   icon: typescript,
+  // },
   {
     name: "HTML 5",
     icon: html,
@@ -69,22 +118,6 @@ const technologies = [
     icon: css,
   },
   {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
@@ -92,10 +125,10 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
+  // {
+  //   name: "MongoDB",
+  //   icon: mongodb,
+  // },
   {
     name: "Three JS",
     icon: threejs,
@@ -108,10 +141,6 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
@@ -122,9 +151,10 @@ const experiences = [
     iconBg: "white",
     date: "Summer 2020 – Fall 2021",
     points: [
-      "Implemented and coded 8 large-scale data processing experiments using STATA to analyze, merge, and produce an econometric database of 1.3M+ observations and 100 variables.",
-      "Processed and interpreted 3 economic/financial papers per day to generate new datasets. Resulted in the production of peer-reviewed financial research with Aaron Pancost Ph.D",
-      "Led peer meetings with the aim of enhancing the abilities of 5 fellow analysts through instructing on research methodologies and providing quality feedback on data work",
+      "Designed and implemented eight large-scale data processing experiments using STATA.",
+      "Analyzed and merged data to create a comprehensive database of 1.3M+ observations and 100 variables.",
+      "Reviewed and interpreted 3 economic/financial papers daily, generating new datasets and aiding in the production of peer-reviewed financial research with Aaron Pancost, Ph.D contributing to significant advancements in measurement error.",
+      "Led peer meetings to enhance the abilities of 5 fellow analysts, providing instruction on research methodologies and constructive feedback. This improved the team's data analysis skills, increasing accuracy by 20%."
     ],
   },
   {
@@ -134,10 +164,10 @@ const experiences = [
     iconBg: "black",
     date: "Spring 2022 - Winter 2022",
     points: [
-      "Led the analysis of financial, valuation, and sensitivity models for a portfolio exceeding 20,000 acres of master-planned communities currently in development and Milam and Greene, one of the largest texas whiskey distilleries",
-      "Liasoned with The Baupost Group, CHP's parent fund, processing and analyzing local economic data to optimize the financial performance of all equity investments",
-      "Spearheaded live due diligence and comps analysis for real estate and whiskey company deals exceeding $130M, producing investment materials for fund investors",
-      "Aided in Assembling sales team responsible for the development of 700 high-end residential lots in Austin, Texas, with each lot anticipated to sell for over $1M",
+      "Led the analysis of financial, valuation, and sensitivity analyses for a portfolio exceeding 20,000 acres of master-planned communities and one of Texas' largest whiskey distilleries, Milam and Greene, contributing to effective strategic planning and financing.",
+      "Served as liason with The Baupost Group, CHP's parent fund, processing and analyzing local economic data to optimize the financial performance of all equity investments",
+      "Led due diligence and comps analysis for real estate and whiskey company deals exceeding $130M, creating investment materials that secured funding from key investors.",
+      "Contributed to assembling a sales team that successfully developed 700 high-end residential lots in Austin, Texas, with each lot projected to generate over $1M in revenue.",
     ],
   },
   {
@@ -147,10 +177,10 @@ const experiences = [
     iconBg: "black",
     date: "Winter 2022 - Present",
     points: [
-      "Founded and developed PocketAnalyst, an innovative, AI-driven financial analyst mobile application now available on the Apple App Store along with the website and marketing materials using JS, React Native, and React",
-      "Steered all aspects of the venture from marketing, software development, backend, frontend, to UI/UX, all while independently sustaining my living expenses in New York using personal savings.",
-      "Implemented the App's backend infrastructure using Vercel for the App's custom API, and integrated OpenAI's ChatGPT via API to enhance the app's financial analysis functionality",
-      "Currently focusing on model training with Python and Fast.ai to expand the product's capabilities and cater to enterprise-level needs.",
+      "Founded and developed PocketAnalyst, an AI-driven mobile application available on the Apple App Store that transforms the financial analysis process. Built the app, website, and marketing materials using JS, React Native, and React.",
+      "Single-handedly steered all facets of the venture, from marketing and software development to UI/UX, while independently funding my living expenses in New York. This hands-on approach resulted in learning multiple programming lenguages, creating the mobile application and gaining competency in artificial intelligence.",
+      "Engineered the app's backend using Vercel for the custom API and integrated OpenAI's ChatGPT, significantly enhancing the app's financial analysis capabilities.",
+      "Focusing on model training with Python and Fast.ai to broaden the product's capabilities, aiming to cater to enterprise-level needs and increase the app's market reach.",
     ],
   },
 ];
@@ -184,110 +214,107 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "PocketAnalyst",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "PocketAnalyst is an innovative mobile application, leveraging the power of artificial intelligence to transform complex financial data into accessible, personalized insights, making institutional-grade investment analysis available at your fingertips. From cryptocurrency to traditional asset classes, it offers an increasingly tailored, comprehensive, and efficient investment analysis solution, acting as your personal financial analyst.",
     tags: [
       {
-        name: "react",
+        name: "reactnative",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "chatgptapi",
+        color: "orange-text-gradient ",
+      },
+      {
+        name: "coingeckoapi",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "ios",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: pastore,
+    source_code_link: "https://apps.apple.com/us/app/pocketanalyst/id6447647744",
   },
   {
-    name: "Job IT",
+    name: "PocketAnalyst Website",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Showcasing a streamlined design implemented with Tailwind CSS, the PocketAnalyst promotional website serves as the gateway to the app. The site effectively highlights the mobile app's impressive capabilities of delivering investment research in a mobile app.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "tailwindcss",
         color: "green-text-gradient",
       },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: pawebsite,
+    source_code_link: "https://apps.apple.com/us/app/pocketanalyst/id6447647744",
   },
   {
-    name: "hello",
+    name: "Private Equity Excel Model",
     description:
-      "pepbois",
+      "Financial analysis is one of the most important aspects of my job as a private equity analyst. I've created a comprehensive excel model that allows me to analyze the financial performance of a real estate investment and determine its viability. The model is fully customizable and can be used to analyze any real estate investment.",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
+        name: "excel",
         color: "green-text-gradient",
       },
+    ],
+    image: excelmodel,
+    source_code_link: "https://docs.google.com/spreadsheets/d/1cXS--6TAGUi8J43Du2dlvBn65MliGKqF/edit?usp=sharing&ouid=112954166408836832152&rtpof=true&sd=true",
+  },
+  {
+    name: "Economic Research",
+    description:
+      "Econometric research about the role of credit availability on small, informal business growth in Mexico. We find that having access to credit, being educated, and gender do have an impact on both income and the ability to start a business. These findings provide evidence on the higher marginal utility and profits of credit to the less educated and impoverished.",
+    tags: [
       {
-        name: "scss",
-        color: "pink-text-gradient",
+        name: "STATA",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "excel",
+        color: "green-text-gradient",
       },
     ],
-    image: shopify,
-    source_code_link: "https://github.com/",
+    image: video,
+    source_code_link: "https://www.youtube.com/watch?v=czviZdB6Bnc&t=77s&ab_channel=PatricioDieck",
   },  
   {
-    name: "hello",
+    name: "Job Losses From Covid-19",
     description:
-      "pepbois",
+      "This PowerPoint presentation delves into the profound transformations observed in the labor force in the wake of the pandemic. Starting with a comparative analysis of labor force composition pre- and post-pandemic, it dives into the demographics of those who exited the workforce, examining early retirements and changes in female participation. The presentation also explores labor demand in relation to immigration and birth rates.",
     tags: [
       {
-        name: "react",
+        name: "pptx",
         color: "blue-text-gradient",
       },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
     ],
-    image: starbucks,
-    source_code_link: "https://github.com/",
-  },
+    image: pptpresentation,
+    source_code_link: "https://docs.google.com/presentation/d/1LD9u_4pKcwnMI3QqyVq8pw8s854dLi9J/edit?usp=sharing&ouid=112954166408836832152&rtpof=true&sd=true",
+  },  
   {
-    name: "Trip Guide",
+    name: "Musical Life",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "I love music. It is a passion of mine- it breathes joy and life into me. Here is a video of me playing \"Misty\" by Erroll Garner. Feel free to browse the YouTube channel.",
     tags: [
       {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
+        name: "logicpro",
         color: "pink-text-gradient",
       },
+      {
+        name: "piano",
+        color: "orange-text-gradient ",
+      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
+    image: misty,
+    source_code_link: "https://docs.google.com/presentation/d/1LD9u_4pKcwnMI3QqyVq8pw8s854dLi9J/edit?usp=sharing&ouid=112954166408836832152&rtpof=true&sd=true",
+  },  
 ];
 
 export { services, technologies, experiences, testimonials, projects };
