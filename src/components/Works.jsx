@@ -35,7 +35,7 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link, c
               <img
                 src={check}
                 alt='github'
-                className='object-contain w-1/2 h-1/2 '
+                className='w-1/2 h-1/2 object-contain'
                 />
             </div>
           </div>
@@ -67,11 +67,10 @@ const Works = () => {
       </motion.div>
 
       <div className='w-full flex'>
-        <motion.p 
-          variants= {fadeIn('','',0.1,1)}
+        <p
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'>
           Explore my diverse portfolio of real-world projects below, each complete with a brief description and relevant links. These projects showcase my ability to navigate complex problem-solving, adapt to varied technologies and contexts, and effectively manage projects from conception to completion. Should you require more examples, please don't hesitate to request them. I hope you find this selection both interesting and informative.
-        </motion.p>
+        </p>
       </div>
 
       <div className= 'mt-20 flex flex-wrap gap-7'>
