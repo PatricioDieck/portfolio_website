@@ -2,6 +2,7 @@ import React from 'react'
 import {motion} from 'framer-motion'
 import {styles} from '../styles'
 import { ComputersCanvas } from './canvas'
+import {EarthCanvas } from './canvas'
 
 
 
@@ -27,9 +28,7 @@ const Hero = () => {
         </div>
       </div>
       
-      <a href="http://pocketanalyst.app" className='text-blue-200 underline'>
       <ComputersCanvas />
-      </a>
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
           <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
