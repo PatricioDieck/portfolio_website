@@ -6,8 +6,10 @@ import { github } from '../assets'
 import { SectionWrapper } from '../hoc'
 import { projects } from '../constants'
 import {fadeIn, textVariant} from '../utils/motion'
+import { headshot } from '../assets'
 
-const ProjectCard = ({index, name, description, tags, image, source_code_link}) => {
+
+const ProjectCard = ({index, name, description, tags, image, source_code_link, tag}) => {
   return(
     <motion.div variants={fadeIn("up", "spring", index*0.5, 0.75)}>
       <Tilt
@@ -30,9 +32,9 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link}) 
             <div
               className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'>
               <img
-                src={github}
+                src={tag}
                 alt='github'
-                className='w-1/2 h-1/2 object-contain'
+                className='object-contain w-6 h-6 '
                 />
             </div>
           </div>
@@ -66,11 +68,7 @@ const Works = () => {
         <motion.p 
           variants= {fadeIn('','',0.1,1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-          The Following projects showcase my skills and experience through
-          real-world examples of my work. Each project is briefly described with
-          links to it. They reflect my
-          ability to solve complex problems, work with different technologies/contexts,
-          and manage projects effectively.
+          Explore my diverse portfolio of real-world projects below, each complete with a brief description and relevant links. These projects showcase my ability to navigate complex problem-solving, adapt to varied technologies and contexts, and effectively manage projects from conception to completion. Should you require more examples, please don't hesitate to request them. I hope you find this selection both interesting and informative.
         </motion.p>
       </div>
 

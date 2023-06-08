@@ -7,6 +7,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import headshotnobg from "./headshotnobg.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -88,4 +89,5 @@ export {
   pawebsite,
   pptpresentation,
   video,
+  headshotnobg,
 };

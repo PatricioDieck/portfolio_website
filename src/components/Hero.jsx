@@ -26,6 +26,7 @@ const Hero = () => {
           </p>
         </div>
       </div>
+      
       <a href="http://pocketanalyst.app" className='text-blue-200 underline'>
       <ComputersCanvas />
       </a>

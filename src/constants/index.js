@@ -36,6 +36,7 @@ import {
   pawebsite,
   pptpresentation,
   video,
+  headshot,
 } from "../assets";
 
 export const navLinks = [
@@ -57,22 +58,22 @@ const services = [
   {
     title: "Speaker and Researcher",
     icon: creator,
-    link: "https://youtu.be/czviZdB6Bnc"
+    link: "https://youtu.be/czviZdB6Bnc",
   },
   {
     title: "Mobile App Developer",
     icon: mobile,
-    link:"https://apps.apple.com/us/app/pocketanalyst/id6447647744"
+    link: "https://apps.apple.com/us/app/pocketanalyst/id6447647744",
   },
   {
     title: "Web Developer",
     icon: web,
-    link: "https://www.pocketanalyst.app/"
+    link: "https://www.pocketanalyst.app/",
   },
   {
     title: "Financial Analyst",
     icon: backend,
-    link: "https://drive.google.com/drive/folders/1fn-i2bpGxO2rBHTv8W8eWZd-KsCYMGnL?usp=sharing"
+    link: "https://drive.google.com/drive/folders/1fn-i2bpGxO2rBHTv8W8eWZd-KsCYMGnL?usp=sharing",
   },
 ];
 
@@ -154,7 +155,7 @@ const experiences = [
       "Designed and implemented eight large-scale data processing experiments using STATA.",
       "Analyzed and merged data to create a comprehensive database of 1.3M+ observations and 100 variables.",
       "Reviewed and interpreted 3 economic/financial papers daily, generating new datasets and aiding in the production of peer-reviewed financial research with Aaron Pancost, Ph.D contributing to significant advancements in measurement error.",
-      "Led peer meetings to enhance the abilities of 5 fellow analysts, providing instruction on research methodologies and constructive feedback. This improved the team's data analysis skills, increasing accuracy by 20%."
+      "Led peer meetings to enhance the abilities of 5 fellow analysts, providing instruction on research methodologies and constructive feedback. This improved the team's data analysis skills, increasing accuracy by 20%.",
     ],
   },
   {
@@ -234,9 +235,15 @@ const projects = [
         name: "ios",
         color: "pink-text-gradient",
       },
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
     ],
     image: pastore,
-    source_code_link: "https://apps.apple.com/us/app/pocketanalyst/id6447647744",
+    source_code_link:
+      "https://apps.apple.com/us/app/pocketanalyst/id6447647744",
+    tag: reactjs,
   },
   {
     name: "PocketAnalyst Website",
@@ -253,7 +260,9 @@ const projects = [
       },
     ],
     image: pawebsite,
-    source_code_link: "https://apps.apple.com/us/app/pocketanalyst/id6447647744",
+    source_code_link:
+      "https://apps.apple.com/us/app/pocketanalyst/id6447647744",
+    tag: reactjs,
   },
   {
     name: "Private Equity Excel Model",
@@ -266,7 +275,9 @@ const projects = [
       },
     ],
     image: excelmodel,
-    source_code_link: "https://docs.google.com/spreadsheets/d/1cXS--6TAGUi8J43Du2dlvBn65MliGKqF/edit?usp=sharing&ouid=112954166408836832152&rtpof=true&sd=true",
+    source_code_link:
+      "https://docs.google.com/spreadsheets/d/1cXS--6TAGUi8J43Du2dlvBn65MliGKqF/edit?usp=sharing&ouid=112954166408836832152&rtpof=true&sd=true",
+    tag: excel,
   },
   {
     name: "Economic Research",
@@ -283,8 +294,10 @@ const projects = [
       },
     ],
     image: video,
-    source_code_link: "https://www.youtube.com/watch?v=czviZdB6Bnc&t=77s&ab_channel=PatricioDieck",
-  },  
+    source_code_link:
+      "https://www.youtube.com/watch?v=czviZdB6Bnc&t=77s&ab_channel=PatricioDieck",
+    tag: stata,
+  },
   {
     name: "Job Losses From Covid-19",
     description:
@@ -296,12 +309,14 @@ const projects = [
       },
     ],
     image: pptpresentation,
-    source_code_link: "https://docs.google.com/presentation/d/1LD9u_4pKcwnMI3QqyVq8pw8s854dLi9J/edit?usp=sharing&ouid=112954166408836832152&rtpof=true&sd=true",
-  },  
+    source_code_link:
+      "https://docs.google.com/presentation/d/1LD9u_4pKcwnMI3QqyVq8pw8s854dLi9J/edit?usp=sharing&ouid=112954166408836832152&rtpof=true&sd=true",
+    tag: pptx,
+  },
   {
     name: "Musical Life",
     description:
-      "I love music. It is a passion of mine- it breathes joy and life into me. Here is a video of me playing \"Misty\" by Erroll Garner. Feel free to browse the YouTube channel.",
+      'I love music. It is a passion of mine- it breathes joy and life into me. Here is a video of me playing "Misty" by Erroll Garner. Feel free to browse the YouTube channel.',
     tags: [
       {
         name: "logicpro",
@@ -311,10 +326,16 @@ const projects = [
         name: "piano",
         color: "orange-text-gradient ",
       },
+      {
+        name: "contentcreation",
+        color: "green-text-gradient",
+      },
     ],
     image: misty,
-    source_code_link: "https://docs.google.com/presentation/d/1LD9u_4pKcwnMI3QqyVq8pw8s854dLi9J/edit?usp=sharing&ouid=112954166408836832152&rtpof=true&sd=true",
-  },  
+    source_code_link:
+      "https://docs.google.com/presentation/d/1LD9u_4pKcwnMI3QqyVq8pw8s854dLi9J/edit?usp=sharing&ouid=112954166408836832152&rtpof=true&sd=true",
+    tag: headshot,
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
