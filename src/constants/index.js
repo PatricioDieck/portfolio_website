@@ -165,9 +165,9 @@ const experiences = [
     iconBg: "black",
     date: "Spring 2022 - Winter 2022",
     points: [
-      "Led the analysis of financial, valuation, and sensitivity analyses for a portfolio exceeding 20,000 acres of master-planned communities and one of Texas' largest whiskey distilleries, Milam and Greene, contributing to effective strategic planning and financing.",
       "Served as liason with The Baupost Group, CHP's parent fund, processing and analyzing local economic data to optimize the financial performance of all equity investments",
       "Led due diligence and comps analysis for real estate and whiskey company deals exceeding $130M, creating investment materials that secured funding from key investors.",
+      "Led the analysis of financial, valuation, and sensitivity models for a portfolio exceeding 20,000 acres of master-planned communities and one of Texas' largest whiskey distilleries, Milam and Greene, contributing to effective strategic planning and financing.",
       "Contributed to assembling a sales team that successfully developed 700 high-end residential lots in Austin, Texas, with each lot projected to generate over $1M in revenue.",
     ],
   },
@@ -179,9 +179,9 @@ const experiences = [
     date: "Winter 2022 - Present",
     points: [
       "Founded and developed PocketAnalyst, an AI-driven mobile application available on the Apple App Store that transforms the financial analysis process. Built the app, website, and marketing materials using JS, React Native, and React.",
+      "Focusing on model training with Python and Fast.ai to broaden the product's capabilities, aiming to cater to enterprise-level needs and increase the app's market reach.",
       "Single-handedly steered all facets of the venture, from marketing and software development to UI/UX, while independently funding my living expenses in New York. This hands-on approach resulted in learning multiple programming lenguages, creating the mobile application and gaining competency in artificial intelligence.",
       "Engineered the app's backend using Vercel for the custom API and integrated OpenAI's ChatGPT, significantly enhancing the app's financial analysis capabilities.",
-      "Focusing on model training with Python and Fast.ai to broaden the product's capabilities, aiming to cater to enterprise-level needs and increase the app's market reach.",
     ],
   },
 ];
