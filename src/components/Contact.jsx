@@ -46,9 +46,26 @@ const Contact = () => {
         className="xl:flex-1 xl:h-auto md:h-[500px] h-[550px]"
       >
         <EarthCanvas />
+        <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
+          <div className='h-[17.5px] w-[32px] rounded-3xl border-2 border-secondary flex justify-start items-center p-1'>
+            <motion.div
+              animate={{
+                x: [0, 12, 0],
+              }}
+              transition={{
+                duration: 1.5,
+                repeat: Infinity,
+                repeatType: "loop",
+              }}
+              className='w-1.5 h-1.5 rounded-full bg-secondary mr-0.5'
+            />
+          </div>
+      </div>
+
       </motion.div>
     </div>
   )
 }
 
-export default SectionWrapper(Contact, 'contact')
+export default SectionWrapper(Contact, 'contact') 
+
