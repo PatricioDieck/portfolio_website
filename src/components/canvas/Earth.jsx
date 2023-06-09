@@ -21,14 +21,6 @@ const Earth = () => {
         intensity={0.5}
         castShadow
       />
-      <spotLight
-        position={[-20, 50, 90]}
-        angle={0.08}
-        penumbra={2}
-        intensity={0.5} 
-        castShadow
-        shadow-mapSize={1024}
-      />
       <primitive
         object={earth.scene}
         position={[0, 0, 0]}
@@ -48,8 +40,6 @@ const EarthCanvas = () => {
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls 
-          autoRotate={true}
-          autoRotateSpeed={0.2}
           enableZoom={false}
           minDistance={6.8} maxDistance={6.8}
           maxPolarAngle={Math.PI / 2}
