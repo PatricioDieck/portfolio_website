@@ -39,7 +39,7 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.div>
       <motion.p
-        variants={fadeIn('','',0.1,0.5)}
+        variants={fadeIn('','',0.1,0.1)}
         className={'mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'}>
         As a technical entrepreneur with a background in financial analysis, I offer a unique blend of expertise in software development and private equity. Notably, I developed and published <a href="http://pocketanalyst.app" className='text-blue-200 underline'>PocketAnalyst</a>, a tool that harnesses AI to transform financial analysis. My professional journey includes impactful roles at Castle Hill Partners and the Red McCombs School of Business, where I helped manage $100M+ real estate deals and contributed to financial research respectively.<br/><br/>
 

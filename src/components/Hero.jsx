@@ -3,6 +3,7 @@ import {motion} from 'framer-motion'
 import {styles} from '../styles'
 import { ComputersCanvas } from './canvas'
 import {EarthCanvas } from './canvas'
+import headshot from '../assets/headshot.png'
 
 
 
@@ -27,9 +28,11 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      
-      <ComputersCanvas />
-      <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
+      <div dir= "rtl" className='absolute l:top- top-72 start-0 start-0 w-full h-screen'>
+      <img className='md:mt-5 lg:mt-0 mt-10 md:mr-20 md:mt-15 mr-10 md:w-[60%] lg:w-[50%] w-[75%] flex items-center ' src={headshot} alt='Patricio' />
+     </div>
+      {/* <ComputersCanvas /> */}
+      {/* <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
           <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
             <motion.div
@@ -45,7 +48,7 @@ const Hero = () => {
             />
           </div>
         </a>
-      </div>
+      </div> */}
 
 
     </section>
